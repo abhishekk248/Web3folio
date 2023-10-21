@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background: #216688;
+}
+
+* {
+  font-family: "Poppins";
+  color: #111;
+}
+
+.container {
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1,
+h2 {
+  text-decoration: underline;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 100px;
+  background: #119999;
+  cursor: pointer;
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.connect,
+.send,
+.return {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  text-align: center;
+  font-weight: bold;
+  color: #ed1234;
+}
